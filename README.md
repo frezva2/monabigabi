@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍽️ Coding Challenge Instructions – Spring 2025
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project is part of the **Spring 2025 Coding Challenge** where the goal is to **replicate a live restaurant website**. The challenge demonstrates front-end development skills including layout replication, responsiveness, styling, and interaction fidelity.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Objective
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Recreate the look and feel of a selected restaurant website using modern web technologies. The focus is on **accuracy, responsiveness, and code quality**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔧 Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js** / **React**
+- **Tailwind CSS**
+- HTML5 / CSS3
 
-## Learn More
+## 📂 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+monabigabi/
+├── components/             # Reusable UI components (Navbar, Footer, EventList)
+│   ├── EventList.js
+│   ├── Footer.js
+│   └── Nav.js
+│
+├── public/                 # Static assets (images, icons, etc.)
+│   └── favicon.ico
+│
+├── src/
+│   ├── app/                # App directory (Next.js 13+)
+│   │   ├── layout.js       # Shared layout across pages
+│   │   ├── page.js         # Home page
+│   │   ├── contact/
+│   │   │   └── page.js
+│   │   ├── delivery/
+│   │   │   └── page.js
+│   │   ├── events/
+│   │   │   └── page.js
+│   │   ├── gallery/
+│   │   │   └── page.js
+│   │   ├── menu/
+│   │   │   └── page.js
+│   │   ├── pick-up/
+│   │   │   └── page.js
+│   │   └── private-parties/
+│   │       └── page.js
+│   │
+│   └── styles/
+│       └── globals.css     # Global Tailwind styles
+│
+├── .gitignore
+├── README.md
+├── next.config.mjs
+├── tailwind.config.js
+├── postcss.config.mjs
+├── eslint.config.mjs
+├── jsconfig.json
+├── package.json
+└── package-lock.json
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🖥️ Live Demo
 
-## Deploy on Vercel
+> **Deployed link:** [https://monabigabi-82fo89zn9-frezva2s-projects.vercel.app/](https://monabigabi-82fo89zn9-frezva2s-projects.vercel.app/)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✅ Requirements
+Replicate the homepage layout as closely as possible.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ensure mobile responsiveness.
+
+Use semantic HTML and reusable components.
+
+Maintain clean, readable, and organized code.
+
+Host the site (optional but recommended).
+
+
+🙋‍♂️ Author
+Farzin Rezvani
