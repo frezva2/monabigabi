@@ -60,7 +60,7 @@ monabigabi/
 
 ## 🖥️ Live Demo
 
-> **Deployed link:** [https://monabigabi-82fo89zn9-frezva2s-projects.vercel.app/](https://monabigabi-82fo89zn9-frezva2s-projects.vercel.app/)  
+> **Deployed link:** [https://monabigabi.vercel.app/](https://monabigabi.vercel.app/  
 
 ✅ Requirements
 Replicate the homepage layout as closely as possible.
